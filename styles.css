@@ -1,0 +1,26 @@
+#designframe {
+	background-image: url("Main-iPad-Layout.jpg");
+	background-repeat: no-repeat;
+}
+
+#parent {
+	position: absolute;
+}
+
+#pants {
+				background-image: url("pantsX500.png");
+				background-origin: content-box;
+				background-repeat: no-repeat;
+				background-size: 200px;
+    z-index: 1;
+    padding-left:567px;
+}
+
+#belt {
+    background-image: url("02.png");
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    padding-left:80px;
+    padding-top:600px;
+    z-index: 2;
+}

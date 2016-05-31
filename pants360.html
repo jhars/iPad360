@@ -1,0 +1,26 @@
+<!DOCTYPE html5>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>360 Controller</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <!-- <body onload="initControlBelt()" id="designframe"> -->
+  <!-- <body onload="initControlPants()" onload="initControlPants()" id="designframe"> -->
+  <!-- onload="initControlPants()" -->
+  <body onload="initControl()" id="designframe">
+  <div id="parent">
+
+    <div  id="belt">
+      <canvas id="beltCanvas" width="200" height="200"></canvas>
+    </div>
+
+    <div id="pants">
+      <canvas id="pantsCanvas" width="200" height="200"></canvas>
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="pants360.js"></script>
+  </body>
+</html>
